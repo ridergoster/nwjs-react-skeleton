@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import Button from './Button';
+import Button from './button';
 
-class back extends Component {
+class Back extends Component {
   render() {
     return (
       <Link to="/">
@@ -11,4 +11,4 @@ class back extends Component {
     );
   }
 }
-export default back;
+export default Back;

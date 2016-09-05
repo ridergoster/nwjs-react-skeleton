@@ -20,8 +20,9 @@
   },
   "dependencies": {
     "react": "^15.3.1",
+    "react-addons-update": "^15.3.1",
     "react-dom": "^15.3.1",
-    "react-router": "^2.7.0",
-    "react-addons-update": "^15.3.1"
+    "react-qr-reader": "^0.2.9",
+    "react-router": "^2.7.0"
   }
 }

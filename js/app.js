@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import update from 'react-addons-update';
 import { Router, Route, Link } from 'react-router'
-import '../css/App.css';
-import '../css/Btn.css';
-import QrCode from './Qrcode'
-import Button from './Button'
-import home from './home'
-import Idplayer from './Idplayer'
+import QrCode from './qrcode'
+import Button from './button'
+import Home from './home'
+import Idplayer from './idplayer'
 
 class App extends Component {
   clickHandler() {

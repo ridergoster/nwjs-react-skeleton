@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import Button from './Button';
+import Button from './button';
 
-class home extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -18,4 +18,4 @@ class home extends Component {
     );
   }
 }
-export default home;
+export default Home;

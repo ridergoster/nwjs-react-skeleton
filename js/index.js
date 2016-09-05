@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import '../css/index.css';
-import QrCode from './Qrcode'
-import Button from './Button'
-import Idplayer from './Idplayer'
-import Home from './home'
-import Back from './Back'
 import { browserHistory, Router, Route, Link, IndexRoute } from 'react-router'
+import App from './app';
+import QrCode from './qrcode'
+import Button from './button'
+import Idplayer from './idplayer'
+import Home from './home'
+import Back from './back'
 
 class Index extends React.Component {
   render () {

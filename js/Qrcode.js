@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Back from './Back';
+import Back from './back';
 import QrReader from 'react-qr-reader'
 
 class QrCode extends Component {
